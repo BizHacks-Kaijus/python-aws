@@ -1,5 +1,5 @@
 import boto3
-
+//https://www.bestbuy.ca/api/v2/json/product/12785903?currentRegion=BC&include=all&lang=en-CA
 import json
 
 comprehend = boto3.client('comprehend', region_name='us-east-1')
